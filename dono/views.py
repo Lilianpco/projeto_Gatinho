@@ -28,7 +28,7 @@ def delete(request, id):
     dono = Dono.objects.get(id=id)
 
     args = {
-        dono': dono
+        'dono': dono
     }
 
     dono.delete()
