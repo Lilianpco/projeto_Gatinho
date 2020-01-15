@@ -18,6 +18,7 @@ from django.urls import path, include
 
 from gatinho.views import home, detail, delete, update
 import dono.urls
+import cachorros.urls
 
 urlpatterns = [
     path('', home),

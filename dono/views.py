@@ -5,7 +5,7 @@ from dono.forms import DonoForm
 
 
 def cadastro(request):
-    form = DonoForm(request.POST or None)
+     form = DonoForm(request.POST or None)
     args = {
         'form':form
     }
