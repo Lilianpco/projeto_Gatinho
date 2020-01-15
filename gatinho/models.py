@@ -11,6 +11,14 @@ class Gatinho(models.Model):
         ('PRETO', 'Preto'),
         ('BRANCO', 'Branco'),
         ('PARDO', 'Pardo'),
+        ('BEGE','Bege'),
+        ('TRICOLOR','Tricolor'),
+
+        ('LARANJA','Laranja'),
+        ('CINZA','Cinza'),
+        
+
+
     )
     cor = models.CharField(choices=cores, max_length=100)
     dono = models.ManyToManyField(Dono, blank=True)
