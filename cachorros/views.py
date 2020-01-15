@@ -4,7 +4,7 @@ from cachorros.forms import CachorroForm
 
 # Create your views here.
 def cadastro(request):
-     form = CachorroForm(request.POST or None)
+    form = CachorroForm(request.POST or None)
     args = {
         'form':form
     }
